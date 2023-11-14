@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="tictactoe.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Noto+Sans+JP&family=Oswald:wght@300&family=Philosopher:ital,wght@1,700&family=Poppins&family=Roboto+Condensed:wght@300&family=Rubik+Moonrocks&display=swap" rel="stylesheet"> 
+</head>
+<body onload="loadTheGame()">
+    <h1 class="current">X</h1>
+    <h1 class="game_over"></h1>
+    <div id="tictactoe"></div>
+    <div id="restart">
+        <button class="newgame" onclick="loadTheGame()">New Game</button>
+    </div>
+    <script src="tictactoe.js"></script>
+</body>
+</html>
